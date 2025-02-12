@@ -7,23 +7,63 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="madeinrwanda_ecommerce.html">Home</a></li>
+        <nav class="bg-gray-900 text-white p-4 flex items-center justify-between mb-4 shadow-md fixed w-full z-10 top-0">  
+            <ul class="flex items-center justify-between w-full mx-auto text-white font-bold text-lg md:text-xl lg:text-2xl"> 
+                <li><a class="" href="madeinrwanda_ecommerce.html">Home</a></li>
                 <li><a href="products.html">Products</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="login.html">Login</a></li>
+                <li><a href="services.html">Services</a></li>
             </ul>
-        <h1>Welcome to Made in Rwanda E-commerce</h1>
-        <p>Buy and sell products made in Rwanda</p>
-        <footer>
-            <p>&copy; 2021 Made in Rwanda E-commerce</p>
+            <div class="flex items-center">
+                <input type="text" class="p-2 rounded-l-lg" placeholder="Search">
+                <button class="bg-yellow-500 text-black p-2 rounded-r-lg">Search</button>
+                <button class="bg-yellow-500 text-black p-2 rounded-lg ml-4">Cart</button>
+                <button class="bg-yellow-500 text-black p-2 rounded-lg ml-4">Login</button>
+            </div>
+        </nav>
+        <main class="container mx-auto p-4">
+            <div class="grid grid-cols-4 gap-4">
+                <div class="bg-white p-4 shadow-md">
+                    <h2 class="text-xl font-bold">Sneakers</h2>
+                    <img src="images/download (1).jpeg" alt="Product 1" class="w-full">
+                    <p class="text-sm">Price: $100</p>
+                    <button class="bg-yellow-500 text-black p-2 rounded-lg mt-2">Add to Cart</button>
+                </div>
+                <div class="bg-white p-4 shadow-md">
+                    <h2 class="text-xl font-bold">Bag</h2>
+                    <img src="images/download (2).jpeg" alt="Product 2" class="w-full">
+                    <p class="text-sm">Price: $200</p>
+                    <button class="bg-yellow-500 text-black p-2 rounded-lg mt-2">Add to Cart</button>
+                </div>
+                <div class="bg-white p-4 shadow-md">
+                    <h2 class="text-xl font-bold">Sneakers</h2>
+                    <img src="images/download.jpeg" alt="Product 3" class="w-full">
+                    <p class="text-sm">Price: $300</p>
+                    <button class="bg-yellow-500 text-black p-2 rounded-lg mt-2">Add to Cart</button>
+                </div>
+                <div class="bg-white p-4 shadow-md">
+                    <h2 class="text-xl font-bold">Sneakers</h2>
+                    <img src="images/download (1).jpeg" alt="Product 4" class="w-full">
+                    <p class="text-sm">Price: $400</p>
+                    <button class="bg-yellow-500 text-black p-2 rounded-lg mt-2">Add to Cart</button>
+                </div>
+                <div class="bg-white p-4 shadow-md">
+                    <h2 class="text-xl font-bold">Bag</h2>
+                    <img src="images/download (2).jpeg" alt="Product 5" class="w-full">
+                    <p class="text-sm">Price: $500</p>
+                    <button class="bg-yellow-500 text-black p-2 rounded-lg mt-2">Add to Cart</button>
+                </div>
+            </div>
+        </main>
+        <footer class="bg-gray-900 text-white p-4 flex items-center justify-between mt-4 shadow-md fixed w-full z-10 bottom-0 ">
+            <p>&copy; 2025 Made in Rwanda E-commerce</p>
             <img src="images/logo.png" alt="Made in Rwanda E-commerce logo">
             <i class="fab fa-facebook"></i>
             <i class="fab fa-twitter"></i>  
             <i class="fab fa-instagram"></i>
             <i class="fab fa-linkedin"></i>
+    
         </footer>
     </body>
 </html>
